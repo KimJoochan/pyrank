@@ -1,13 +1,3 @@
-#excel.py
-from itertools import count
-from lib2to3 import refactor
-from openpyxl import Workbook
-
-#load
-import pandas as pd
-def findFile(filename):
-    df = pd.read_excel(filename)
-    return df['keyword'].tolist()
 
 #search
 import sys
